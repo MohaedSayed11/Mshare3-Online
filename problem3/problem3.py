@@ -5,13 +5,12 @@ def getFactors(number):
             factors.append(i)
     return factors
 
-print(getFactors(50))
+print(getFactors(13195))
 primefactors = []
 
 for j in factors:
     if j % 2 != 0:
         primefactors.append(j)
-
-def largestprimefactor():
-    pass
 print(primefactors)
+
+print(primefactors[-1])
